@@ -1,8 +1,10 @@
 # RetroPixelCameraController
 
 A drag and drop Unity component for handling camera settings and movement for 2D pixel art games.
+
 Simply add this component to the same game object that the camera is on.
-Set the Focus Game Object to the game object you want the camera to focus o.n
+
+Set the Focus Game Object to the game object you want the camera to focus on.
 
 
 Some features:
@@ -15,7 +17,7 @@ Some features:
 
 -ability to set "deadzone" where focus destination isn't updated
 
--handy debug move in Scene view: blue is camera size, green is deadzone size
+-handy debug visualization in Scene view: blue is camera size, green is deadzone size, red cross-hair is the camera focus destination
 
 -deadzone only accounts for  horizontal distance; vertical camera movement is one-to-one with focus object movement
 
