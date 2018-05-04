@@ -24,4 +24,4 @@ Some features:
 
 Best practices for how to work with pixel art in Unity and how to use this component outlined here:
 
-http://dithyrambs.tumblr.com/post/173530949946/working-with-pixel-art-sprites-in-unity-that
+http://gamasutra.com/blogs/AlexBelzer/20180504/317472/Working_with_Pixel_Art_Sprites_in_Unity_The_Camera.php
