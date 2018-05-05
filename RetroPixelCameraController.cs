@@ -73,6 +73,10 @@ public class RetroPixelCameraController : MonoBehaviour
 
     public void OnValidate()
     {
+        if (!Mathf.IsPowerOfTwo( (int)tileSize))
+        {
+            Debug.Log("Warning: tileSize not a power of 2");
+        }
 
         if (mapX != mapWidth || mapY != mapHeight) boundByWorld = true;
         minBoundX = mapX + (cameraPixelWidth / 2) / tileSize;
@@ -206,10 +210,6 @@ public class RetroPixelCameraController : MonoBehaviour
             cameraPositionX = Mathf.Clamp(cameraPositionX, minBoundX, maxBoundX);
             cameraPositionY = Mathf.Clamp(cameraPositionY, minBoundY, maxBoundY);
         }
-
-        //Finally we need to round to nearest pixel to make it not have glitchy pixel weirdness (professional game dev term)
-        cameraPositionX = Mathf.Round(cameraPositionX * tileSize) / tileSize;
-        cameraPositionY = Mathf.Round(cameraPositionY * tileSize) / tileSize;
 
         //And now actually transform the camera position to the derived focusDestination
         mainCamera.transform.position = new Vector3(cameraPositionX, cameraPositionY, -2);
