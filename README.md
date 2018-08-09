@@ -40,10 +40,6 @@ One of the cool things about this script is it let&rsquo;s you define a&nbsp;&ld
 
 <figure data-orig-height="46" data-orig-width="920"><img data-img-key="584" data-orig-height="46" data-orig-width="920" src="https://78.media.tumblr.com/b60cf457b4940111147295a263bd6b8b/tumblr_inline_p84q2ycUaZ1sph69g_540.png" /></figure>
 
-<p>And that about wraps this up. Thanks for reading, and feel free to use&nbsp;<a href="https://github.com/dithyrambs/RetroPixelCameraController">RetroPixelCameraController&nbsp;</a>in your Unity project.&nbsp;&nbsp;</p>
-
-<p>In the next episode in this series I&rsquo;ll finally go over my alternate solution for Unity 2D collisions and player movement, so stay tuned!</p>
-
 <p>Special thanks to Luis Zuno (<a href="https://twitter.com/ansimuz">@ansimuz</a>) for his adorably rad pixel art&nbsp;(CC-BY-3.0 License&nbsp;<a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a>). You can find all of this art and more at&nbsp;<a href="http://pixelgameart.org/web/">http://pixelgameart.org/</a></p>
 
 Original post:
