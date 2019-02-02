@@ -1,12 +1,9 @@
 # RetroPixelCameraController
 
-<p><strong>A Deep Dive into 2D Cameras</strong></p>
 
 <p>Chances are, if you first worked on a pixel art game in Unity you ended up with some problems.</p>
 
 <figure data-orig-height="370" data-orig-width="496"><img alt="image" data-orig-height="370" data-orig-width="496" src="https://78.media.tumblr.com/db066e3b4062d804ef90371f806842aa/tumblr_inline_p847k6n1Na1sph69g_540.gif" /></figure>
-
-<p>I wish this gif was just a manufactured exaggeration. It&rsquo;s not.</p>
 
 <p>Unity, being a 3D-first engine, presupposes that you are making a 3D game, or at best a 2D game with a 3D camera. Which is why for retro pixel-art games, you need to manually set the&nbsp;<a href="https://docs.unity3d.com/Manual/class-Camera.html">Projection</a>&nbsp;of the camera to &ldquo;Orthographic&rdquo; (more on&nbsp;<a href="https://en.wikipedia.org/wiki/Orthographic_projection">orthographic projection here</a>). Now all elements of the z-axis will be drawn &ldquo;flat&rdquo;, as if they are all at the same depth.&nbsp;</p>
 
